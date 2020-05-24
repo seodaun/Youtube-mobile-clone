@@ -1,154 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="URT-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Youtube Mobile</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-    <script src="main.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <i class="fab fa-youtube"></i>
-        <span class="title">Youtube</span>
-      </div>
-      <div class="icons">
-        <i class="fas fa-search"></i>
-        <i class="fas fa-ellipsis-v"></i>
-      </div>
-    </header>
-    <section class="player"> 
-      <img src = "image/doa.png">
-    </section>
-    <div class="infoAndUpNext">
-      <section class="info">
-        <div class="metadata">
-          <ul class="hashtags">
-            <li>#도아</li>
-            <li>#노래</li>
-            <li>#아프리카</li>
-          </ul>
-          <div class="titleAndButton">
-            <span class="title clamp"
-              >끝나고 미처 못 불렀던 노래들 퍼레이드(나에게로의 초대, 사랑 결코
-              시들지 않는, 사랑하기 싫어, 180도, 지상에서 영원으로, 그런일은,
-              꿈에, 낭만고양이)</span
-            >
-            <button class="moreBtn">
-              <i class="fas fa-caret-down"></i>
-            </button>
-          </div>
-          <span class="views">조회수 53만회</span>
-        </div>
-        <ul class="actions">
-          <li>
-            <button>
-              <i class="active fas fa-thumbs-up"></i>
-              <span>5.2천</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <i class="fas fa-thumbs-down"></i>
-              <span>153</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <i class="fas fa-share"></i>
-              <span>공유</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <i class="fas fa-arrow-alt-circle-down"></i>
-              <span>저장</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <i class="fas fa-plus-square"></i>
-              <span>저장</span>
-            </button>
-          </li>
-        </ul>
-        <div class="channel">
-          <div class="metadata">
-            <img src="./image/avatar.jpg" alt="" class="" />
-            <div class="info">
-              <span class="name">도아TV</span>
-              <span class="subscribers">구독자 40.2만명</span>
-            </div>
-          </div>
-          <div class="subscribe">구독</div>
-        </div>
-      </section>
-      <section class="upNext">
-        <span class="title">다음 동영상</span>
-        <ul>
-          <li class="item">
-            <div class="img"><img src="./image/1.jpg" alt="" /></div>
-            <div class="info">
-              <span class="title"
-                >인기만큼 악플도 많다는 DJ소다, 지금까지의 루머 해명합니다!
-                [무엇이든 물어보살]</span
-              >
-              <span class="name">KBS N</span>
-              <span class="views">107만회</span>
-            </div>
-            <button class="moreBtn">
-              <i class="fas fa-ellipsis-v"></i>
-            </button>
-          </li>
-          <li class="item">
-            <div class="img"><img src="./image/2.jpg" alt="" /></div>
-            <div class="info">
-              <span class="title"
-                >스스로도 풀지 못한.. 진짜 무속인의 마음속 고민 [무엇이든
-                물어보살]</span
-              >
-              <span class="name">KBS N</span>
-              <span class="views">327만회</span>
-            </div>
-            <button class="moreBtn">
-              <i class="fas fa-ellipsis-v"></i>
-            </button>
-          </li>
-          <li class="item">
-            <div class="img"><img src="./image/3.jpg" alt="" /></div>
-            <div class="info">
-              <span class="title"
-                >미모와 지성을 겸비한 선생님의 고민! 다시 사랑할 수 있을까요?
-                [무엇이든 물어보살]</span
-              >
-              <span class="name">KBS N</span>
-              <span class="views">304만회</span>
-            </div>
-            <button class="moreBtn">
-              <i class="fas fa-ellipsis-v"></i>
-            </button>
-          </li>
-          <li class="item">
-            <div class="img"><img src="./image/4.jpg" alt="" /></div>
-            <div class="info">
-              <span class="title"
-                >되는 일이 1도 없는 인생..개명하면 잘 풀릴까요? [무엇이든
-                물어보살]</span
-              >
-              <span class="name">KBS N</span>
-              <span class="views">201만회</span>
-            </div>
-            <button class="moreBtn">
-              <i class="fas fa-ellipsis-v"></i>
-            </button>
-          </li>
-        </ul>
-      </section>
+<html lang="ko">
+
+<head>
+  <meta charset="URT-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youtube Mobile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <i class="fab fa-youtube"></i>
+      <span class="title">Youtube</span>
     </div>
-  </body>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+  <section class="player">
+    <img src="image/doa.png">
+  </section>
+  <div class="infoAndUpNext">
+    <section class="info">
+      <div class="metadata">
+        <ul class="hashtags">
+          <li>#도아</li>
+          <li>#노래</li>
+          <li>#아프리카</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">끝나고 미처 못 불렀던 노래들 퍼레이드(나에게로의 초대, 사랑 결코
+            시들지 않는, 사랑하기 싫어, 180도, 지상에서 영원으로, 그런일은,
+            꿈에, 낭만고양이)</span>
+          <button class="moreBtn">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+        <span class="views">조회수 53만회</span>
+      </div>
+      <ul class="actions">
+        <li>
+          <button>
+            <i class="active fas fa-thumbs-up"></i>
+            <span>5.2천</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fas fa-thumbs-down"></i>
+            <span>153</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fas fa-share"></i>
+            <span>공유</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fas fa-arrow-alt-circle-down"></i>
+            <span>저장</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fas fa-plus-square"></i>
+            <span>저장</span>
+          </button>
+        </li>
+      </ul>
+      <div class="channel">
+        <div class="metadata">
+          <img src="./image/avatar.jpg" alt="" class="" />
+          <div class="info">
+            <span class="name">도아TV</span>
+            <span class="subscribers">구독자 40.2만명</span>
+          </div>
+        </div>
+        <div class="subscribe">구독</div>
+      </div>
+    </section>
+    <section class="upNext">
+      <span class="title">다음 동영상</span>
+      <ul>
+        <li class="item">
+          <div class="img"><img src="./image/1.jpg" alt="" /></div>
+          <div class="info">
+            <span class="title">인기만큼 악플도 많다는 DJ소다, 지금까지의 루머 해명합니다!
+              [무엇이든 물어보살]</span>
+            <span class="name">KBS N</span>
+            <span class="views">107만회</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="./image/2.jpg" alt="" /></div>
+          <div class="info">
+            <span class="title">스스로도 풀지 못한.. 진짜 무속인의 마음속 고민 [무엇이든
+              물어보살]</span>
+            <span class="name">KBS N</span>
+            <span class="views">327만회</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="./image/3.jpg" alt="" /></div>
+          <div class="info">
+            <span class="title">미모와 지성을 겸비한 선생님의 고민! 다시 사랑할 수 있을까요?
+              [무엇이든 물어보살]</span>
+            <span class="name">KBS N</span>
+            <span class="views">304만회</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="./image/4.jpg" alt="" /></div>
+          <div class="info">
+            <span class="title">되는 일이 1도 없는 인생..개명하면 잘 풀릴까요? [무엇이든
+              물어보살]</span>
+            <span class="name">KBS N</span>
+            <span class="views">201만회</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fas fa-ellipsis-v"></i>
+          </button>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+
 </html>
